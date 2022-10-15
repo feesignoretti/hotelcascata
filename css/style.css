@@ -12,7 +12,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3;
+  color: #bd0a0a;
   outline: none;
   text-decoration: none;
 }
@@ -236,11 +236,6 @@ h6 {
 
 /* Desktop Navigation */
 
-.main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-}
-
 .main-nav,
 .main-nav * {
   margin: 0;
@@ -253,9 +248,6 @@ h6 {
   white-space: nowrap;
   float: left;
 }
-
-
-
 
 .main-nav a {
   display: block;
@@ -482,18 +474,27 @@ h6 {
 
 .section-header h3 {
   font-size: 36px;
-  color: #333;
+  color: #040404;
   text-align: center;
   font-weight: 500;
   position: relative;
 }
 
+.section-header h3::after {
+  content: "";
+  width: 30%;
+  height: 30%;
+  background-color: #7e0707;
+
+}
+
+
 .section-header p {
   text-align: center;
   margin: auto;
   font-size: 15px;
-  padding-bottom: 60px;
-  color: #333;
+  padding-bottom: 24px;
+  color: #040404;
   width: 70%;
 }
 
@@ -512,7 +513,14 @@ h6 {
 }
 
 .section-bg-2 {
-  background: #eee;
+  background: #5a0404;
+}
+
+.section-bg-2 h1,
+.section-bg-2 h2,
+.section-bg-2 h3,
+.section-bg-2 .section-header p {
+  color: white;
 }
 
 /* About Us Section
@@ -528,18 +536,20 @@ h6 {
 }
 
 #about .logo-full {
-  width: 33%;
+  width: 300px;
   margin: auto;
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
+
+
 
 #about .about-container .content {
   background: #fff;
 }
 
 #about .about-container .title {
-  color: #333;
+  color: #040404;
   font-weight: 700;
   font-size: 32px;
 }
@@ -892,7 +902,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #ff3333;
+  background: #040404;
 }
 
 #portfolio
@@ -1110,16 +1120,23 @@ h6 {
 /* Contact Section
 --------------------------------*/
 
+#localization,
 #contact {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
 }
 
+#localization .section-header,
 #contact .section-header {
   padding-bottom: 30px;
 }
 
+#localization .section-header p {
+  padding: 0;
+}
+
+#localization .contact-about h3,
 #contact .contact-about h3 {
   font-size: 36px;
   margin: 0 0 10px 0;
@@ -1132,6 +1149,7 @@ h6 {
   color: #c80404;
 }
 
+#localization .contact-about p,
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
@@ -1165,75 +1183,39 @@ h6 {
 }
 
 #contact .info {
-  color: #283d50;
+  color: #2d0404;
+  text-align: center;
+  margin: auto;
+}
+
+#contact .info a {
+  border: 0px solid;
+  width: 60%;
+  height: 100px;
+  display: block;
+  margin: auto;
 }
 
 #contact .info i {
-  font-size: 32px;
-  color: #c80404;
-  float: left;
+  font-size: 51px;
+  color: #5a0404;
   line-height: 1;
-}
-
-#contact .info p {
-  padding: 0 0 10px 36px;
-  line-height: 28px;
-  font-size: 14px;
-}
-
-#contact .form #sendmessage {
-  color: #c80404;
-  border: 1px solid #c80404;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-#contact .form button[type="submit"] {
-  background: #c80404;
-  border: 0;
-  border-radius: 20px;
-  padding: 8px 30px;
-  color: #fff;
   transition: 0.3s;
 }
 
-#contact .form button[type="submit"]:hover {
-  background: #c80404;
-  cursor: pointer;
+#contact .info p {
+  line-height: 28px;
+  font-size: 14px;
+  color: #040404;
+  transition: 0.4s;
+}
+
+#contact .info a:hover * {
+  color: #c80404;
+}
+
+#contact .info a:hover i {
+  font-size: 60px;
 }
 
 /*--------------------------------------------------------------
