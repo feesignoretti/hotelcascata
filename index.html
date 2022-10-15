@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <title>Hotel Cascata</title>
@@ -103,6 +103,7 @@
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -115,11 +116,14 @@
           <!-- <h1 class="text-light">
             <a href="#header"><span>Hotel Cascata</span></a>
           </h1> -->
-          <a href="#intro" class="scrollto"><img src="img/logo/logo.png" alt="" class="img-fluid"></a>
+          <a href="#intro" class="scrollto">
+            <img src="img/logo/logo_icon.png" alt="" class="img-fluid" />
+          </a>
         </div>
 
         <nav class="main-nav float-right d-none d-lg-block">
           <ul>
+            <li class="show-mobile-nav header-menu"><a class="ignore">Menu</a></li>
             <li class="active"><a href="#intro">Início</a></li>
             <li><a href="#about">Quem somos</a></li>
             <li><a href="#services">Serviços</a></li>
@@ -142,14 +146,15 @@
             </ul>
           </li> -->
             <li><a href="#contact">Fale Conosco</a></li>
-            <li><a href="tel:+553398626713">(33) 9862-6713</a></li>
-            <li>
-              <a
-                href="https://wa.me/+553398626713"
-                target="_blank"
-                style="top: -6px"
-                ><i class="fa fa-2x fa-whatsapp" aria-hidden="true"></i
-              ></a>
+            <li class="show-mobile-nav header-menu">
+              <a class="ignore">-</a>
+            </li>
+            <li><a class="header-divider" href="tel:+553398626713">(33) 9862-6713</a></li>
+            <li class="header-icon">
+              <a href="https://wa.me/+553398626713" target="_blank"
+                ><i class="fa fa-2x fa-whatsapp" aria-hidden="true"></i>
+                Whatsapp
+              </a>
             </li>
           </ul>
         </nav>
@@ -185,6 +190,11 @@
       <section id="about">
         <div class="container">
           <header class="section-header">
+            <img
+              src="img/logo/logo_full.png"
+              alt=""
+              class="img-fluid logo-full"
+            />
             <h3>Quem somos</h3>
             <p>
               O <strong>Hotel Cascata</strong> está localizado em uma das áreas
@@ -325,9 +335,7 @@
                   <i class="ion-wifi"></i>
                 </div>
                 <h4 class="title"><a href="">Teste Teste</a></h4>
-                <p class="description">
-                  Teste teste teste test
-                </p>
+                <p class="description">Teste teste teste test</p>
               </div>
             </div>
 
@@ -344,8 +352,6 @@
                 <p class="description">Teste teste teste teste</p>
               </div>
             </div>
-
-            
           </div>
         </div>
       </section>
@@ -675,23 +681,27 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-4 col-md-6 footer-info">
-              <h3>Hotel Cascata</h3>
-              <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p> -->
+              <!-- <h3>Hotel Cascata</h3> -->
+              <img
+                src="img/logo/logo_white.png"
+                alt=""
+                class="logo-white img-fluid"
+              />
             </div>
 
             <!-- <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Terms of service</a></li>
-              <li><a href="#">Privacy policy</a></li>
-            </ul>
-          </div> -->
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Terms of service</a></li>
+                <li><a href="#">Privacy policy</a></li>
+              </ul>
+            </div> -->
 
-            <div class="col-lg-3 col-md-6 footer-contact">
-              <h4>Fale conosco</h4>
+            <div class="col-lg-8 col-md-6 footer-contact">
+              <h4>Contato</h4>
               <p>
                 Praça do Povo, 104<br />
                 Centro - 39680-000<br />
@@ -701,7 +711,6 @@
               </p>
 
               <div class="social-links">
-                <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
                 <a
                   href="https://pt-br.facebook.com/people/Cascata-Hotel/100072431835697/"
                   class="facebook"

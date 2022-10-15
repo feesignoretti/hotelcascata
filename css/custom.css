@@ -1,0 +1,40 @@
+.show-mobile-nav {
+  display: none;
+}
+
+.ignore {
+  pointer-events: none;
+}
+
+.header-menu {
+  color: #fff;
+  text-align: center;
+}
+
+.header-divider {
+  border-left: 1px solid #bd0a0a;
+}
+
+.main-nav > ul > li.header-icon {
+  padding-left: 21px;
+}
+
+.main-nav > ul > li.header-icon > a > i {
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.mobile-nav > ul > li.header-icon a {
+  padding-left: 60px;
+}
+
+.mobile-nav > ul > li.header-icon > a > i {
+  position: absolute;
+  left: 21px;
+  top: 5px;
+}
+
+.mobile-nav .show-mobile-nav {
+  display: block;
+}
