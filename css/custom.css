@@ -21,7 +21,7 @@
 }
 
 .main-nav > ul > li.header-icon {
-  padding-left: 21px;
+  padding-left: 30px;
 }
 
 .main-nav > ul > li.header-icon > a > i {
@@ -70,7 +70,6 @@
   text-shadow: 2px 2px #5a0404;
 }
 
-
 .logo-full:before {
   content: "";
   position: absolute;
@@ -104,4 +103,20 @@
     left: 290px;
     top: 0;
   }
+}
+
+.mobile-nav a.reserve-btn {
+  background-color: #5a0404;
+  margin-top: 30px;
+}
+
+.main-nav a.reserve-btn {
+  color: #fff !important;
+  background-color: #c80404;
+  border-radius: 3px;
+  margin: 0 0 0 10px;
+}
+
+.main-nav .active > a.reserve-btn::after {
+  display: none;
 }

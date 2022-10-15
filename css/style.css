@@ -284,9 +284,14 @@ h6 {
   transition: all 0.9s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
+.main-nav a:hover:after{
+  width: 100%;
+  background-color: #fb0404;
+}
+
 .main-nav .active > a::after {
   width: 100%;
-  background-color: #c80404;
+  background-color: #bd0a0a;
 }
 
 .main-nav .drop-down ul {
@@ -389,7 +394,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  background-color: #5a0404;
+  background-color: #2d0404;
   text-decoration: none;
 }
 
