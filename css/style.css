@@ -286,12 +286,12 @@ h6 {
 
 .main-nav a:hover:after{
   width: 100%;
-  background-color: #fb0404;
+  background-color: #bd0a0a ;
 }
 
 .main-nav .active > a::after {
   width: 100%;
-  background-color: #bd0a0a;
+  background-color: #9c0404;
 }
 
 .main-nav .drop-down ul {
@@ -487,9 +487,7 @@ h6 {
   width: 30%;
   height: 30%;
   background-color: #7e0707;
-
 }
-
 
 .section-header p {
   text-align: center;
@@ -1189,14 +1187,16 @@ h6 {
 #contact .info a {
   border: 0px solid;
   width: 60%;
-  height: 100px;
+  height: 120px;
   display: block;
   margin: auto;
+  color: #fff;
+  border-radius: 3px;
+  padding-top: 12px;
 }
 
 #contact .info i {
   font-size: 51px;
-  color: #5a0404;
   line-height: 1;
   transition: 0.3s;
 }
@@ -1204,12 +1204,15 @@ h6 {
 #contact .info p {
   line-height: 28px;
   font-size: 14px;
-  color: #040404;
   transition: 0.4s;
 }
 
+#contact .info a:hover{
+  background-color: #fff;
+}
+
 #contact .info a:hover * {
-  color: #c80404;
+  color: #5a0404;
 }
 
 #contact .info a:hover i {
@@ -1221,14 +1224,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #7e0707;
+  background: #2d0404;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #bd0a0a;
+  background: #fff;
   padding: 60px 0 30px 0;
 }
 
@@ -1241,7 +1244,6 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
 }
@@ -1250,7 +1252,6 @@ h6 {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  color: #ffecec;
 }
 
 #footer .footer-top .footer-info .logo-white {
@@ -1286,7 +1287,6 @@ h6 {
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 10px;
@@ -1321,6 +1321,7 @@ h6 {
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
   text-align: right;
+  color: #040404;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1360,15 +1361,15 @@ h6 {
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #f1f7ff;
+  color: #fff;
 }
 
 #footer .credits a {
-  color: rgb(244, 161, 161);
+  color: #fff;
 }
 
 #footer .credits a:hover {
-  color: #f1f7ff;
+  color: #5a0404;
 }
 
 /*--------------------------------------------------------------
