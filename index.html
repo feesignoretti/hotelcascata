@@ -71,34 +71,17 @@
         <ul>
           <li class="show-mobile-nav header-menu"><a class="ignore">Menu</a></li>
           <li class="active"><a href="#intro">Início</a></li>
-          <li><a href="#about">Quem somos</a></li>
-          <li><a href="#services">Serviços</a></li>
+          <li><a href="#about">Sobre o Hotel</a></li>
+          <li><a href="#services">Comodidade</a></li>
           <li><a href="#portfolio">Fotos</a></li>
-          <!-- <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li> -->
-          <li><a href="#localization">Endereço</a></li>
+          <li><a href="#localization">Localização</a></li>
           <li><a href="#contact">Contatos</a></li>
           <li class="show-mobile-nav header-menu">
             <a class="ignore">-</a>
           </li>
           <li class="header-icon">
             <a href="https://wa.me/+553398626713" target="_blank"><i class="fa fa-2x fa-whatsapp"
-              aria-hidden="true"></i>
+                aria-hidden="true"></i>
               Whatsapp
             </a>
           </li>
@@ -116,9 +99,11 @@
   <section id="intro" class="clearfix">
     <div class="container">
       <div class="intro-info">
-        <h2>Seja muito bem vindo! <br />Aqui, é o melhor lugar pra você!</h2>
+        <h2>Seja muito bem vindo ao Hotel Cascata. <br /> O melhor lugar pra você</h2>
         <div>
           <a href="#services" class="btn-services scrollto">Nossos serviços</a>
+          <a href="https://hotel.ebooking.com/hotel/br/cascata-capelinha.pt-br.html" target="_blank"
+            class="btn-services scrollto">Reservar agora</a>
         </div>
       </div>
       <!-- <div class="intro-img">
@@ -139,7 +124,7 @@
           <!-- <div class="logo-full">
             <img src="img/logo/logo_full.png" alt="" class="img-fluid " />
           </div> -->
-          <h3><span>Quem somos</span></h3>
+          <h3><span>Sobre o Hotel</span></h3>
           <p>
             O <strong>Hotel Cascata</strong> está localizado em uma das áreas
             mais estratégicas de Capelinha, na Praça do Povo, coração da
@@ -159,42 +144,39 @@
         <div class="row about-container">
           <div class="col-lg-6 content order-lg-1 order-2">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Oferecemos quartos de solteiro, duplo, casal, triplo e quádruplo
+              com todo conforto que nossos hóspedes merecem.
             </p>
 
-            <div class="icon-box wow fadeInUp">
+            <div class="icon-box wow fadeInUp" data-room="room1">
               <div class="icon"><i class="fa fa-shopping-bag"></i></div>
-              <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+              <h4 class="title">Apartamento</h4>
               <p class="description">
-                Et harum quidem rerum facilis est et expedita distinctio. Nam
-                libero tempore, cum soluta nobis est eligendi
+                1 cama de casal
               </p>
             </div>
 
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+            <div class="icon-box wow fadeInUp" data-room="room2" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-photo"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
+              <h4 class="title">Quarto Duplo</h4>
               <p class="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum
+                2 camas de solteiro
               </p>
             </div>
 
-            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+            <div class="icon-box wow fadeInUp" data-room="room3" data-wow-delay="0.4s">
               <div class="icon"><i class="fa fa-bar-chart"></i></div>
-              <h4 class="title"><a href="">Dolor Sitema</a></h4>
+              <h4 class="title">Quarto tríplo</h4>
               <p class="description">
-                Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat tarad limino ata
+                3 camas de solteiro
               </p>
             </div>
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
-            <img src="img/about-img.svg" class="img-fluid" alt="" />
+          <div class="col-lg-6 background room-images order-lg-2 order-1 wow fadeInUp">
+            <img src="img/rooms/casal.jpg" id="room1" class="room-img img-fluid" alt="" />
+            <img src="img/rooms/duplo.jpg" id="room2" class="room-img img-fluid" alt="" />
+            <img src="img/rooms/triplo.jpg" id="room3" class="room-img img-fluid" alt="" />
           </div>
         </div>
       </div>
@@ -208,7 +190,7 @@
       <div class="container">
         <header class="section-header">
           <h3>
-            <span>Serviços</span>
+            <span>Comodidade</span>
           </h3>
           <p>Conheça o que podemos temos a oferecer! Além de todo nosso carinho.</p>
         </header>
@@ -233,7 +215,11 @@
                 <i class="ion-coffee"></i>
               </div>
               <h4 class="title"><a href="">Café da manhã</a></h4>
-              <p class="description">Temos café da manhã entre 8am e 10am</p>
+              <p class="description">O café da manhã está incluso em todas nossas tarifas e é servido de
+                6:30 às 09:00.</p>
+              <p class="description">
+                Buffet completo de café da manhã com produtos caseiros da região.
+              </p>
             </div>
           </div>
 
@@ -255,8 +241,9 @@
               <div class="icon">
                 <i class="ion-ios-star-outline"></i>
               </div>
-              <h4 class="title"><a href="">Teste Teste</a></h4>
-              <p class="description">Teste teste teste teste</p>
+              <h4 class="title"><a href="">Estacionamento grátis</a></h4>
+              <p class="description">Funcionamento 24h para hóspedes do hotel.
+                Contamos com estacionamento próprio. (colocar ícone de carro)</p>
             </div>
           </div>
 
@@ -265,8 +252,9 @@
               <div class="icon">
                 <i class="ion-wifi"></i>
               </div>
-              <h4 class="title"><a href="">Teste Teste</a></h4>
-              <p class="description">Teste teste teste test</p>
+              <h4 class="title"><a href="">WiFi Grátis</a></h4>
+              <p class="description">Acesso à internet sem custo ao hóspede. Basta pedir a senha na
+                recepção.</p>
             </div>
           </div>
 
@@ -275,8 +263,8 @@
               <div class="icon">
                 <i class="ion-ios-paw-outline"></i>
               </div>
-              <h4 class="title"><a href="">Teste Teste</a></h4>
-              <p class="description">Teste teste teste teste</p>
+              <h4 class="title"><a href="">Aceitamos animais</a></h4>
+              <p class="description">Somos pet friendly. Traga seu animalzinho para passar sua estadia conosco.</p>
             </div>
           </div>
         </div>
@@ -431,9 +419,9 @@
     <section id="localization" class="section-bg-2">
       <div class="container-fluid">
         <div class="section-header">
-          <h3><span>Endereço</span></h3>
-          <p>Estamos localizados em:</p>
-          <p>Praça do Povo, 104 - Centro, Capelinha - MG (CEP 39680-000)</p>
+          <h3><span>Localização</span></h3>
+          <p>O Hotel Cascata tem uma localização privilegiada no centro de Capelinha.</p>
+          <p>Endereço: Praça do Povo, 104 - Centro, Capelinha - MG (CEP 39680-000)</p>
         </div>
 
         <div class="row wow fadeInUp">
@@ -467,38 +455,27 @@
       <div class="col-lg-12">
         <div class="row">
 
-          <div class="col-md-4 info">
+          <div class="col-md-3 info">
             <a target="_blank" href="tel:+553398626713">
               <i class="fa fa-phone"></i>
               <p>(33) 9862-6713</p>
             </a>
           </div>
 
-          <div class="col-md-4 info">
+          <div class="col-md-3 info">
             <a target="_blank" href="https://wa.me/+553398626713">
               <i class="fa fa-whatsapp"></i>
               <p>(33) 9862-6713</p>
             </a>
           </div>
 
-          <div class="col-md-4 info ">
+          <div class="col-md-3 info ">
             <a target="_blank" href="mailto:hotelcascata@outlook.com">
               <i class="fa fa-envelope-o"></i>
               <p>hotelcascata@outlook.com</p>
             </a>
           </div>
 
-        </div>
-      </div>
-
-      <div class="section-header mt60">
-        <h3>
-          <span>Redes sociais</span>
-        </h3>
-        <p>Acompanhe nossas redes socias.</p>
-      </div>
-      <div class="col-lg-12">
-        <div class="row">
           <div class="col-md-3 info">
             <a target="_blank" href="#">
               <i class="fa fa-instagram"></i>
@@ -506,14 +483,25 @@
             </a>
           </div>
 
-          <div class="col-md-3 info">
+        </div>
+      </div>
+
+      <!-- <div class="section-header mt60">
+        <h3>
+          <span>Redes sociais</span>
+        </h3>
+        <p>Acompanhe nossas redes socias.</p>
+      </div>
+      <div class="col-lg-12">
+        <div class="row">
+           <div class="col-md-3 info">
             <a target="_blank" href="https://pt-br.facebook.com/people/Cascata-Hotel/100072431835697/">
               <i class="fa fa-facebook-official"></i>
               <p>Cascata-Hotel</p>
             </a>
           </div>
-        </div>
-      </div>
+        </div> 
+      </div> -->
 
     </div>
     </div>
@@ -554,8 +542,8 @@
             </p>
 
             <div class="social-links">
-              <a target="_blank" href="https://pt-br.facebook.com/people/Cascata-Hotel/100072431835697/" class="facebook"><i
-                  class="fa fa-facebook"></i></a>
+              <a target="_blank" href="https://pt-br.facebook.com/people/Cascata-Hotel/100072431835697/"
+                class="facebook"><i class="fa fa-facebook"></i></a>
               <a target="_blank" href="#" class="instagram"><i class="fa fa-instagram"></i></a>
             </div>
           </div>
@@ -596,6 +584,7 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/rooms.js"></script>
 </body>
 
 </html>

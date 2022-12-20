@@ -652,7 +652,7 @@ h6 {
   background: #fff;
   box-shadow: 0 10px 29px 0 rgba(144, 68, 68, 0.1);
   transition: all 0.3s ease-in-out;
-  min-height: 145px;
+  min-height: 200px;
 }
 
 #services .box:hover {
@@ -1461,6 +1461,10 @@ h6 {
 
   #footer .footer-top .footer-info .logo-white {
     position: relative;
+  }
+
+  .room-images {
+    min-height: 100% !important; 
   }
 }
 

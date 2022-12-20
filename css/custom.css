@@ -34,6 +34,10 @@
   padding-left: 60px;
 }
 
+.main-nav > ul > li.header-icon > a:hover:after {
+  left: -15px;
+}
+
 .mobile-nav > ul > li.header-icon > a > i {
   position: absolute;
   left: 21px;
@@ -119,4 +123,20 @@
 
 .main-nav .active > a.reserve-btn::after {
   display: none;
+}
+
+.room-images {
+  min-height: 420px;
+}
+
+.room-img {
+  border-radius: 20px;
+  opacity: 0;
+  display: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.room-img.show {
+  opacity: 1;
+  display: block;
 }
